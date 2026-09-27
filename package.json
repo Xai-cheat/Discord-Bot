@@ -1,0 +1,18 @@
+{
+  "name": "server-architect-bot",
+  "version": "1.0.0",
+  "description": "AI-powered Discord bot: describe a server in plain English and it builds the categories, channels and roles. Includes anti-raid protection and a lockdown panic button.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node deploy-commands.js && node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
